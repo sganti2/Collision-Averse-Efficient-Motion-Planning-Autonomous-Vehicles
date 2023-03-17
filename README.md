@@ -1,9 +1,9 @@
 # 2D-Motion-Planner
-Simple repo that contains src code for autonomous vehicle social navigation.
+This repository contains source code for an Honors Thesis.
 
-As of 11/15/22, base code adapted from omg-tools
+## I. 2D_Motion_Planner
 
-## Branches:
-- Single-AgentCase1: Represents a single-agent interaction with static obstacle. The obstacle is a static circle that is representative of a roundabout intersection. 
+## II. Interaction Dataset
+The scripts included in the "Interaction_Dataset" directory must be executed with the INTERACTION Dataset. In order to access the INTERACTION Dataset, please view: https://interaction-dataset.com/ 
 
-**Please reference Google Drive (2d_Motion Planner shared folder) for simulation results.** 
+## III. Evaluation Metrics
