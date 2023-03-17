@@ -1,21 +1,4 @@
-# This file is part of OMG-tools.
-#
-# OMG-tools -- Optimal Motion Generation-tools
-# Copyright (C) 2016 Ruben Van Parys & Tim Mercy, KU Leuven.
-# All rights reserved.
-#
-# OMG-tools is free software; you can redistribute it and/or
-# modify it under the terms of the GNU Lesser General Public
-# License as published by the Free Software Foundation; either
-# version 3 of the License, or (at your option) any later version.
-# This software is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
-# Lesser General Public License for more details.
-#
-# You should have received a copy of the GNU Lesser General Public
-# License along with this program; if not, write to the Free Software
-# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+# This file is not part of OMG-tools.
 
 from omgtools import *
 
@@ -28,10 +11,7 @@ vehicle.set_terminal_conditions([3., 3., 0.])  # x, y, theta
 
 # create environment
 environment = Environment(room={'shape': Square(5.), 'position': [1.5, 1.5]})
-trajectories = {'velocity': {'time': [0.5],
-                             'values': [[0.0, 0.0]]}}
-environment.add_obstacle(Obstacle({'position': [1., 1.]}, shape=Circle(0.5),
-                                  simulation={'trajectories': trajectories}))
+environment.add_obstacle(Obstacle({'position': [1., 1.]}, shape=Circle(0.5)))
 
 # create a point-to-point problem
 problem = Point2point(vehicle, environment, freeT=True)
