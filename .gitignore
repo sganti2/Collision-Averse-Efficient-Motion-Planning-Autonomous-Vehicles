@@ -1,3 +1,5 @@
+#This .gitignore file has been exracted from OMG-tools: https://github.com/meco-group/omg-tools 
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
