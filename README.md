@@ -1,5 +1,4 @@
 # Social Navigation for Autonomous Vehicles
-This repository contains source code for an Honors Thesis.
 
 ## I. 2D_Motion_Planner
 
