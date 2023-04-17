@@ -14,7 +14,7 @@ The setup for Case 2 is representative of a multi-agent roundabout scenario. Thi
 ## III. 2D_Motion_Planner Results
 The '2D_Motion_Planner' directory consists of results for single-agent and multi-agent interactions within the roundabout scenario. These results are categorized by the following vehicle models: quadrotor model and bicycle model. In order to visualize the single-agent and multi-agent results, download OMG-tools here: https://github.com/meco-group/omg-tools. Once OMG-tools has been downloaded, copy the specific motion planning Python file from this repository into the OMG-tools repository. Be sure to copy the file into the 'examples' directory. Execute the copied file as you would an example within the OMG-tools repository. 
 
-## IV. Frenet Baseline Results
+## IV. Frenet_Baseline Results
 Frenet frames were utilized as a baseline for validating the computational efficiency of the extended motion planner. However, the Frenet frame approach does not incorporate minimization, or take the vehicle dynamics into account when generating the desired trajectory. In order to visualize the Frenet frame results, ensure that the 'cubic_spline_planner.py', 'quintic_polynomials_planner.py', and 'frenet_optimal_trajectory.py' files are included within the same package. Execute the 'frenet_optimal_trajectory.py' using the following terminal command: `python frenet_optimal_trajectory.py`
 
 ## Appendix
