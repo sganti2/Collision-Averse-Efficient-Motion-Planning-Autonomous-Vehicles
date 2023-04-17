@@ -19,8 +19,8 @@ Frenet frames were utilized as a baseline for validating the computational effic
 
 ## Appendix
 ### Definitions
-NLP: Non-linear Programming Problem
-OCP: Optimal Control Problem 
+* NLP: Non-linear Programming Problem
+* OCP: Optimal Control Problem 
 
 ### References 
 [1] R. Van Parys and T. Mercy. (2016). OMG-Tools. [Online]. Available:
