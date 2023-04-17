@@ -1,5 +1,5 @@
 # Social Navigation for Autonomous Vehicles
-In order to acquire a comprehensive understanding of the work present within this repository, please refer to the accompanying honors thesis defense paper, "Social Navigation for Autonomous Vehicles".
+In order to acquire a comprehensive understanding of the work present within this repository, please refer to the accompanying honors thesis defense paper: https://keep.lib.asu.edu/collections/130827.
 
 ## I. Research Objective
 The primary objective of this research was to utilize the model-based approach to design a motion planner that optimizes collision aversion and efficiency for 2D vehicle dynamics. This research leverages 
