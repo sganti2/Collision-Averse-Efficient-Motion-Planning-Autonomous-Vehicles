@@ -6,11 +6,11 @@ The '2D_Motion_Planner' directory consists of results for single-agent and multi
 
 ## II. Simulation Setup
 ### A. Case 1
-The setup for Case 1 is representative of a single-agent roundabout scenario. This environment consists of one agent (primary vehicle) and one obstacle (static roundabout). The aim of Case 1 is to solve the OCP for a very simplified environment in order to generate the most optimal trajectory. 
+The setup for Case 1 is representative of a single-agent roundabout scenario. This environment consists of one agent (primary vehicle) and one obstacle (static roundabout). The aim of Case 1 is to solve the NLP for a very simplified environment in order to generate the most optimal trajectory. 
 
 ### B. Case 2
-The setup for Case 2 is representative of a multi-agent roundabout scenario. This environment consists of two agents (primary vehicle and secondary vehicle), and one obstacle (static roundabout). The aim of Case 2 is to slightly increase the complexity of the Case 1 OCP in order to account for multiple vehicles and produce the optimal trajectory. 
+The setup for Case 2 is representative of a multi-agent roundabout scenario. This environment consists of two agents (primary vehicle and secondary vehicle), and one obstacle (static roundabout). The aim of Case 2 is to slightly increase the complexity of the Case 1 NLP in order to account for multiple vehicles and produce the optimal trajectory. 
 
 ## Appendix
 ### 1. Definitions
-OCP: Optimal Control Problem 
+NLP: Non-linear Programming Problem
