@@ -1,8 +1,8 @@
 # Social Navigation for Autonomous Vehicles
-In order to acquire a comprehensive understanding of the work present within this repository, please refer to the accompanying honors thesis defense paper: https://keep.lib.asu.edu/collections/130827.
+In order to acquire a comprehensive understanding of the work present within this repository, please refer to the accompanying honors thesis defense paper: [pdf].
 
 ## I. Research Objective
-The primary objective of this research was to utilize the model-based approach to design a motion planner that optimizes collision aversion and efficiency for 2D vehicle dynamics. This research leverages 
+The primary objective of this research was to utilize the model-based approach to design a motion planner that optimizes collision aversion and efficiency for 2D vehicle dynamics. This research leverages the pre-existing motion planning toolkit, OMG-Tools, in order to generate smooth trajectories [1]. The simulation results included within this repository are specific to two interaction cases: Case 1 and Case 2. The setup for Case 1 and Case 2 is 
 
 ## III. Simulation Setup
 ### A. Case 1
@@ -21,5 +21,9 @@ The '2D_Motion_Planner' directory consists of results for single-agent and multi
 
 
 ## Appendix
-### 1. Definitions
+### Definitions
 NLP: Non-linear Programming Problem
+
+### References 
+[1] R. Van Parys and T. Mercy. (2016). OMG-Tools. [Online]. Available:
+https://github.com/meco-group/omg-tools
