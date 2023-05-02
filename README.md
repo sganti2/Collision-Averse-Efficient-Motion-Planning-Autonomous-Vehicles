@@ -1,4 +1,6 @@
-# Social Navigation for Autonomous Vehicles
+# Collision-Averse and Efficient B-Spline Derived Motion Planning for Autonomous
+Vehicles (AVs)
+
 In order to acquire a comprehensive understanding of the work present within this repository, please refer to the accompanying honors thesis: [pdf].
 
 ## I. Research Objective
