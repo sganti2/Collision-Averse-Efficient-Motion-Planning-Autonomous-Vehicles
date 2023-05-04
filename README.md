@@ -1,7 +1,7 @@
 # Collision-Averse and Efficient B-Spline Derived Motion Planning for Autonomous Vehicles (AVs)
 
-In order to acquire a comprehensive understanding of the work present within this repository, please refer to the accompanying honors thesis: [pdf].
-
+In order to acquire a comprehensive understanding of the work present within this repository, please refer to the accompanying honors thesis within this repository.
+ 
 ## I. Research Objective
 The primary objective of this research was to utilize the model-based approach to design a motion planner that optimizes collision aversion and efficiency for 2D vehicle dynamics. This research leverages the pre-existing motion planning toolkit, OMG-Tools, in order to generate smooth trajectories [1]. The simulation results included within this repository are specific to two interaction cases: Case 1 and Case 2. The setup for Case 1 and Case 2 are discussed thoroughly within the following section. 
 
